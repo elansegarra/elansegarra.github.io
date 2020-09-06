@@ -5,22 +5,21 @@ sidebar_link: true
 sidebar_sort_order: 2
 ---
 
-Current students can find information, such as the syllabus and class files, through the respective links below. Archived course information can also be browsed using the later links. For students looking for additional help outside of the classroom this page also discusses my tutoring services.
+Current students can find information, such as the syllabus and class files, through the respective links below. Archived information for past courses can also be browsed using the later links. For students looking for additional help outside of the classroom this page also discusses my tutoring services.
 
-## Currently teaching
+## Currently Teaching
 
-No courses in Fall 2020
+I am not teaching during Fall 2020.
 
 ## Previous Teaching Experience
-
-* TA - Econ 310 (UW Fall 2016) - Statistics: Measurement in Economics
-* Lecturer - Econ 101 (SFSU Spring 2015) - Introduction to Microeconomic Analysis
-* Lecturer - Econ 101 (SFSU Fall 2014) - Introduction to Microeconomic Analysis
-* Lecturer - Econ 101 (SFSU Summer 2014) - Introduction to Microeconomic Analysis
-* Lecturer - Econ 312 (SFSU Spring 2014) - Introduction to Econometrics
+* [TA - Econ 310 (UW Fall 2016) - Statistics: Measurement in Economics](teaching/ECON310-UW-FA2016)
+* [Lecturer - Econ 101 (SFSU Spring 2015) - Introduction to Microeconomic Analysis](teaching/ECON101-SFSU-SP2015)
+* [Lecturer - Econ 101 (SFSU Fall 2014) - Introduction to Microeconomic Analysis](teaching/ECON101-SFSU-FA2014)
+* [Lecturer - Econ 101 (SFSU Summer 2014) - Introduction to Microeconomic Analysis](teaching/ECON101-SFSU-SU2014)
+* [Lecturer - Econ 312 (SFSU Spring 2014) - Introduction to Econometrics](teaching/ECON312-SFSU-SP2014)
 * TA/Grader - Econ 101 (SFSU Spring 2013) - Introduction to Microeconomic Analysis
 * TA/Grader - Econ 102 (SFSU Spring 2013) - Introduction to Macroeconomic Analysis
-* TA/Grader - Econ 301 (SFSU Fall 2013) - Introduction to Microeconomic Analysis
+* TA/Grader - Econ 301 (SFSU Fall 2013) - Intermediate Microeconomic Theory
 * TA/Grader - Econ 311 (SFSU Fall 2013) - Statistical Methods and Interpretation
 
 ## Tutoring
