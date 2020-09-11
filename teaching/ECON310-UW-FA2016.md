@@ -13,6 +13,6 @@ title: "Teaching Statistics: Measurement in Economics (UW Fall 2016)"
  * Lab 310: Thursday 4pm-5:55pm, 6228 Sewell Social Sciences
  * Lab 311: Monday 4pm-5:55pm, 6228 Sewell Social Sciences
 
- [Syllabus](syllabus)
+ <!-- [Syllabus](assets/Econ101Syllabus2014Fall.pdf) -->
 
 Teaching evaluations available upon request.
