@@ -1,0 +1,12 @@
+---
+# Jekyll needs front matter for SCSS files
+---
+
+// $sidebar-bg-color: #ac4142;
+// $link-color: #ac4142;
+$sidebar-sticky: false; // Makes sidebar fixed at top
+$sidebar-width: 15rem;  // Width of the sidebar
+$root-line-height: 1.3; // Line spacing
+// $border-radius: 100px;
+// $padding-h: 5em;
+@import "hydeout";
