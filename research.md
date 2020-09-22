@@ -5,15 +5,15 @@ sidebar_link: true
 sidebar_sort_order: 1
 ---
 
-This is where I will talk about my research projects...
+## Job Market Paper
 
-**Birth, Death, and Record Linkage: Survival Analysis in the Presence of Record Linkage Error**  
+**[Birth, Death, and Record Linkage: Survival Analysis in the Presence of Record Linkage Error](assets/papers/Elan_Segarra_JMP.pdf)**  
 Elan Segarra
 <div id="docwrapper">
-   <div id="docimg"> <img src="assets/BDRL2020_PIS.png" width=100%>
+   <div id="docimg"> <img src="assets/papers/BDRL2020_PIS.png" width=100%>
    </div>
    <div id="docabstract">
-   When linkage methods employed in the creation of longitudinal panels is subject to error they can be imperfect representations of reality.
+   Abstract: When linkage methods employed in the creation of longitudinal panels is subject to error they can be imperfect representations of reality.
    In this paper I study survival estimation (e.g. firm death, mortality, or emigration) when missed linkages induce error in the observed lifetime durations, and thus inconsistency in standard survival estimators.
    Importantly, the error introduced does not take the form of a standard competing risks model, and the methods developed here illustrate that consistency of the parameters of interest can be restored without correcting the linkages.
    This work makes three distinct theoretical contributions: First, under a known independent linkage error process I show that the marginal distribution of time to death is non-parametrically identified from linkage error induced durations, and I provide consistent estimators.
@@ -24,14 +24,33 @@ Elan Segarra
    </div>
 </div>
 
+## Published Papers
 
-
-**Instrumental Variables with Treatment-Induced Selection: Exact Bias Results**  
+**[Instrumental Variables with Treatment-Induced Selection: Exact Bias Results](https://arxiv.org/abs/2005.09583)**  
 Felix Elwert and Elan Segarra
 <div id="docwrapper">
-   <div id="docimg"> <img src="assets/Festschrift2020_LeastBiasEst.png" width=100%>
+   <div id="docimg"> <img src="assets/papers/Festschrift2020_LeastBiasEst.png" width=100%>
    </div>
    <div id="docabstract">
-   Instrumental variables (IV) estimation suffers selection bias when the analysis conditions on the treatment. In this paper, we derive exact analytic expressions for IV selection bias across a range of data-generating models, and for various selection-inducing procedures. We present four sets of results for linear models. First, IV selection bias depends on the conditioning procedure (covariate adjustment vs. sample truncation). Second, IV selection bias due to covariate adjustment is the limiting case of IV selection bias due to sample truncation. Third, in certain models, the IV and OLS estimators under selection bound the true causal effect in large samples. Fourth, we characterize situations where IV remains preferred to OLS despite selection on the treatment. These results broaden the notion of IV selection bias beyond sample truncation, replace prior simulation findings with exact analytic formulas, and enable formal sensitivity analyses.
+   Abstract: Instrumental variables (IV) estimation suffers selection bias when the analysis conditions on the treatment. In this paper, we derive exact analytic expressions for IV selection bias across a range of data-generating models, and for various selection-inducing procedures. We present four sets of results for linear models. First, IV selection bias depends on the conditioning procedure (covariate adjustment vs. sample truncation). Second, IV selection bias due to covariate adjustment is the limiting case of IV selection bias due to sample truncation. Third, in certain models, the IV and OLS estimators under selection bound the true causal effect in large samples. Fourth, we characterize situations where IV remains preferred to OLS despite selection on the treatment. These results broaden the notion of IV selection bias beyond sample truncation, replace prior simulation findings with exact analytic formulas, and enable formal sensitivity analyses.
    </div>
 </div>
+
+## Working Papers
+
+Elasticity Estimation in Discrete Choice Models with Population Misspecification
+(with Diwakar Raisingh)
+
+Efficiency in Measurement Error Models: Applications to Twin Studies and Peer Effects
+
+Sanctuaries for Immigrants or Criminals? Investigating the Effects of Sanctuary Policies on Crime
+
+## Works in Progress
+
+Generalized Method of Moments Estimation with Linked Data Sets
+
+A New Geography for Research: Describing Heterogeneity in Research Projects via Classification of Expenditure Profiles
+
+Identification of Market Size in the Estimation of Discrete Choice Models (Diwakar Raisingh)
+
+Sufficient Statistics For Correcting Record Linkage Error
