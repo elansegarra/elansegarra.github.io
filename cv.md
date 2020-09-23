@@ -5,6 +5,6 @@ sidebar_link: true
 sidebar_sort_order: 3
 ---
 
-[Download my CV](assets/ElanCV2020-03-06.pdf)
+[Download my CV](assets/CV_ElanSegarra.pdf)
 
-<embed src="assets/ElanCV2020-03-06.pdf" width=100% height=1060px />
+<embed src="assets/CV_ElanSegarra.pdf" width=100% height=1060px />
