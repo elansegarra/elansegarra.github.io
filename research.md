@@ -7,27 +7,27 @@ sidebar_sort_order: 1
 
 ## Job Market Paper
 
-**[Birth, Death, and Record Linkage: Survival Analysis in the Presence of Record Linkage Error](assets/papers/Elan_Segarra_JMP.pdf)**  
-Elan Segarra
+"**[Birth, Death, and Record Linkage: Survival Analysis in the Presence of Record Linkage Error](assets/papers/Elan_Segarra_JMP.pdf)**"
 <div id="docwrapper">
    <div id="docimg"> <img src="assets/papers/BDRL2020_PIS.png" width=100%>
    </div>
    <div id="docabstract">
-   Abstract: When linkage methods employed in the creation of longitudinal panels is subject to error they can be imperfect representations of reality.
+   Abstract: When linkage methods employed in the creation of longitudinal panels are subject to error they can be imperfect representations of reality.
    In this paper I study survival estimation (e.g. firm death, mortality, or emigration) when missed linkages induce error in the observed lifetime durations, and thus inconsistency in standard survival estimators.
-   Importantly, the error introduced does not take the form of a standard competing risks model, and the methods developed here illustrate that consistency of the parameters of interest can be restored without correcting the linkages.
-   This work makes three distinct theoretical contributions: First, under a known independent linkage error process I show that the marginal distribution of time to death is non-parametrically identified from linkage error induced durations, and I provide consistent estimators.
-   Second, I provide sharp informative bounds on the marginal distribution of death when independence is relaxed.
-   Third, when start and end periods are also observed, I show the marginal distribution of death can be point identified without imposing any dependence structure on the linkage error
-   The methods are then applied to longitudinal business data (where linkage error occurs due to firm relocation) to show that traditional estimates of survival rates of new firms are significantly overestimated
+   Importantly, the error introduced does not take the form of a standard competing risks model, and the methods developed here illustrate that consistent estimation can be restored without correcting the linkages.
+   This work makes three distinct theoretical contributions: First, under a known independent linkage error process I show that the marginal distribution of time to death is non-parametrically identified from linkage error induced durations.
+   Second, when observations on start and end dates are introduced, I show that nonparametric point identification of the joint distribution of lifetimes and linkage error is typically achieved.
+   Third, when no restriction is placed on the dependence structure, I apply partial identification methods to derive sharp informative bounds on the marginal distribution of lifetimes.
+   New estimators and inference methods are established across all scenarios.
+   The methods are then applied to longitudinal business data (where linkage error occurs due to firm relocation) to show that naive estimates of death rates of new establishments can be over-estimated by as much as 10 percentage points.
    Finally, I discuss additional applications to the estimation of household migration and mortality where linkage error is induced by family name changes at marriage.
    </div>
 </div>
 
 ## Published Papers
 
-**[Instrumental Variables with Treatment-Induced Selection: Exact Bias Results](https://arxiv.org/abs/2005.09583)**  
-Felix Elwert and Elan Segarra
+"**[Instrumental Variables with Treatment-Induced Selection: Exact Bias Results](https://arxiv.org/abs/2005.09583)**"  with Felix Elwert, 
+*Probabilistic and Causal Inference: The Works of Judea Pearl*, edited by Hector Geffner, Rina Dechter, and Joseph Y. Halpern. ACM Books, 2020 (Forthcoming)
 <div id="docwrapper">
    <div id="docimg"> <img src="assets/papers/Festschrift2020_LeastBiasEst.png" width=100%>
    </div>
@@ -38,19 +38,19 @@ Felix Elwert and Elan Segarra
 
 ## Working Papers
 
-Elasticity Estimation in Discrete Choice Models with Population Misspecification
+``Elasticity Estimation in Discrete Choice Models with Population Misspecification''
 (with Diwakar Raisingh)
 
-Efficiency in Measurement Error Models: Applications to Twin Studies and Peer Effects
+``Efficiency in Measurement Error Models: Applications to Twin Studies and Peer Effects''
 
-Sanctuaries for Immigrants or Criminals? Investigating the Effects of Sanctuary Policies on Crime
+``Sanctuaries for Immigrants or Criminals? Investigating the Effects of Sanctuary Policies on Crime''
 
 ## Works in Progress
 
-Generalized Method of Moments Estimation with Linked Data Sets
+``Generalized Method of Moments Estimation with Linked Data Sets''
 
-A New Geography for Research: Describing Heterogeneity in Research Projects via Classification of Expenditure Profiles
+``A New Geography for Research: Describing Heterogeneity in Research Projects via Classification of Expenditure Profiles''
 
-Identification of Market Size in the Estimation of Discrete Choice Models (Diwakar Raisingh)
+``Identification of Market Size in the Estimation of Discrete Choice Models'' (with Diwakar Raisingh)
 
-Sufficient Statistics For Correcting Record Linkage Error
+``Sufficient Statistics For Correcting Record Linkage Error''
