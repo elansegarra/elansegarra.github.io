@@ -47,6 +47,8 @@ Finally, I discuss additional applications to the estimation of household migrat
 
 ``A New Geography for Research: Describing Heterogeneity in Research Projects via Classification of Expenditure Profiles''
 
+``Employment and Payroll Dynamics in Agricultural Support Services'' (with Anton Babkin, Richard A. Dunn, and Brent Hueth)
+
 ``Identification of Market Size in the Estimation of Discrete Choice Models'' (with Diwakar Raisingh)
 
 ``Sufficient Statistics For Correcting Record Linkage Error''
