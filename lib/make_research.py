@@ -24,19 +24,50 @@ in_progress = all_papers[(all_papers.highlight==0) & (all_papers.status=="work_i
 none_missing = (highlights.shape[0]+working.shape[0]+published.shape[0]+in_progress.shape[0]==all_papers.shape[0])
 assert none_missing, "There might be papers that were not categorized properly"
 
-def format_paper_bib(doc_info, bold_title=False):
+# Personal webpages of coauthors
+coauthor_links = {'Anton Babkin':"http://www.antonbabkin.com/",
+            'Richard A. Dunn':"https://are.uconn.edu/person/richard-a-dunn-2/",
+            'Brent Hueth':"https://www.ers.usda.gov/authors/ers-staff-directory/brent-hueth/",
+            # 'Nicole Nestoriak':"",
+            'Benjamin Raymond':"https://sites.google.com/site/benjaminwraymond/",
+            'Felix Elwert':"https://sociology.wisc.edu/staff/elwert-felix-2/",
+            'Diwakar Raisingh':"https://www.raisingh.com/"}
+
+def format_paper_bib(doc_info, style="simple_title_coauthors", bold_title=False):
     # Returns a string of formatted document bib info
     bib = ""
     bold = "**" if bold_title else ""
-    # First the title (with link if specified)
-    if doc_info['title_link']!="":
-        bib += f'"{bold}[{doc_info["title"]}]({doc_info["title_link"]}){bold}"'
+
+    if style == "simple_title_coauthors":
+        # Prints title and coauthors on first line and rest of bib (if there) on next
+        if doc_info['title_link']!="":
+            bib += f'{bold}[{doc_info["title"]}]({doc_info["title_link"]}){bold}'
+        else:
+            bib += f'{bold}{doc_info["title"]}{bold}'
+        if doc_info['coauthors']!="":
+            bib += f" (with {', '.join(doc_info['coauthors'].split(';'))})"
+        if doc_info['status']=="published_paper":
+            bib += "\n"
+            if doc_info['doc_type']=="article":
+                bib+= f"*{doc_info['journal']}*"
+                if doc_info['volume']!="": bib+=f", {doc_info['volume']:.0f}({doc_info['issue']:.0f})"
+                bib+= f", {doc_info['year']:.0f}."
+            elif doc_info['doc_type']=="book_chapter":
+                bib += f"In *{doc_info['book_title']}*"
+                if doc_info['editors']!="":   bib+= f", {doc_info['editors']} (Eds.)."
+                if doc_info['publisher']!="": bib+=f" {doc_info['publisher']}"
+                bib+= f", {doc_info['year']:.0f}."
+            else:
+                raise NotImplementedError(f"Have not implemented bib entry for {doc_info['doc_type']}")
+    elif style == "":
+        pass
     else:
-        bib += f'"{bold}{doc_info["title"]}{bold}"'
-    # Display coauthors if any
-    if doc_info['coauthors']!="":
-        bib += f" (with {', '.join(doc_info['coauthors'].split(';'))})"
-        
+        raise NotImplementedError(f"Have not implemented style {style}")
+
+    # Adding coauthor links to websites if found
+    for coauthor, link in coauthor_links.items():
+        bib = bib.replace(coauthor, f"[{coauthor}]({link})")
+
     return bib
 
 # Open and start writing the markdown file with the header
