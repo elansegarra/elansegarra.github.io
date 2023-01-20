@@ -70,6 +70,16 @@ def format_paper_bib(doc_info, style="simple_title_coauthors", bold_title=False)
 
     return bib
 
+def format_other_links(doc_info):
+    res = ""
+
+    for link_key in ['link_1', 'link_2', 'link_3']:
+        if doc_info[link_key] != "":
+            link_name, link = doc_info[link_key].split(";")
+            res += f"[{link_name}]({link})"
+    
+    return res
+
 # Open and start writing the markdown file with the header
 f = open(output_path, "w")
 f.write("""---
@@ -85,7 +95,9 @@ f.write("\n### Recent Papers\n")
 for ind, paper in highlights.iterrows():
     f.write("\n")
     # Write the main bib info
-    f.write(format_paper_bib(paper, bold_title=True))
+    main_bib = format_paper_bib(paper, bold_title=True)
+    links = format_other_links(paper)
+    f.write(main_bib+' '+links if links!="" else main_bib)
     f.write("\n\n")
     # Display a picture is supplied
     if paper['image']!= "":
@@ -98,7 +110,9 @@ f.write("\n### Working Papers\n")
 for ind, paper in working.iterrows():
     f.write("\n")
     # Write the main bib info
-    f.write(format_paper_bib(paper))
+    main_bib = format_paper_bib(paper)
+    links = format_other_links(paper)
+    f.write(main_bib+' '+links if links!="" else main_bib)
     f.write("\n")
     
 # Write the published papers section
@@ -106,7 +120,9 @@ f.write("\n### Published Papers\n")
 for ind, paper in published.iterrows():
     f.write("\n")
     # Write the main bib info
-    f.write(format_paper_bib(paper))
+    main_bib = format_paper_bib(paper)
+    links = format_other_links(paper)
+    f.write(main_bib+' '+links if links!="" else main_bib)
     f.write("\n")
 
 # Write the works in progress section
