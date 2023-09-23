@@ -23,7 +23,6 @@ In *Probabilistic and Causal Inference: The Works of Judea Pearl*, Hector Geffne
 Estimating Preferences Over Data to Inform Statistical Disclosure Control Decisions
 
 Workers’ Compensation Policy and Reported COVID-19 Occupational Illnesses (with Nicole Nestoriak and Benjamin Raymond)
-[Slides](assets/talks/Updated_SOII_COVID_WC_FSRDC_Sept2023.pdf)
 
 Elasticity Estimation in Discrete Choice Models with Population Misspecification (with [Diwakar Raisingh](https://www.raisingh.com/))
 
